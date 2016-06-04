@@ -72,4 +72,4 @@ TidyMeans <- arrange(TidyMeans, as.numeric(SubjectID), Activity)
 
 # And Finally write the whole stuff to a file
 
-write.csv(TidyMeans, file = "TidyMeans.csv", row.names = FALSE)
+write.table(TidyMeans, file = "TidyMeans.txt", row.names = FALSE)
