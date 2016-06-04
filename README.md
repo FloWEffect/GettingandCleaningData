@@ -12,7 +12,7 @@ I created one "big" script to do the following:
 6. Test and training sets are combined and only mean() and std() columns are selected. This has been another interpretation issue. I did exclude the meanFreq() and the angle vectors as it is no direct mean or std of each measurement itself. At least thats how I understood the data.
 7. After that I relabeled and removed the "_" the Activity column in the resulting data set, using the pipe operateor %>%. 
 8. The invidual variable names have also been reformatted to make them more readable.
-9. Finally the Tidy data set is created, ordered and written in a csv-file as indicated in the assignment description. Every row corresponds to a SubjectID/Activity combinations and has been aggregated using the mean() function.
+9. Finally the Tidy data set is created, ordered and written in a txt-file as indicated in the assignment description. Every row corresponds to a SubjectID/Activity combinations and has been aggregated using the mean() function.
 
 I hope this, together with the comments in the script, makes everything easier to understand.
 
